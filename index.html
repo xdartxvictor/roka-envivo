@@ -2,18 +2,18 @@
 <html lang="es">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
     <title>En Vivo - Roka Stereo</title>
     <style>
-        body { background-color: #1a1a1a; color: white; display: flex; flex-direction: column; align-items: center; justify-content: center; height: 100vh; margin: 0; font-family: sans-serif; text-align: center; padding: 20px;}
-        h2 { margin-bottom: 10px; }
-        p { margin-bottom: 30px; color: #cccccc; }
-        .btn { background-color: #FF0000; color: white; padding: 15px 30px; text-decoration: none; border-radius: 8px; font-weight: bold; font-size: 18px; box-shadow: 0 4px 6px rgba(0,0,0,0.3); }
+        body, html { margin: 0; padding: 0; width: 100%; height: 100%; background-color: #000; overflow: hidden; }
+        iframe { width: 100%; height: 100%; border: none; }
     </style>
 </head>
 <body>
-    <h2>Transmisión en Vivo</h2>
-    <p>Para una mejor experiencia y sin interrupciones, abre el video en la aplicación oficial.</p>
-    <a href="youtube://www.youtube.com/channel/UCQlDMV8xj17H_7WHDg4evng/live" class="btn">Abrir en YouTube</a>
+    <iframe 
+        src="https://www.youtube-nocookie.com/embed/live_stream?channel=UCQlDMV8xj17H_7WHDg4evng&playsinline=1&origin=https://xdartxvictor.github.io" 
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+        allowfullscreen>
+    </iframe>
 </body>
 </html>
